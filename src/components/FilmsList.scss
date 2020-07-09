@@ -1,0 +1,15 @@
+.films-list {
+    padding: 3px 5px;
+  font-size: 22px;
+
+}
+
+.films-list__element {
+  width: 500px;
+  margin: 0 auto;
+  &:hover {
+    color: orangered;
+    transform: scaleX(1.05);
+    transition: transform ease 0.5s;
+  }
+}

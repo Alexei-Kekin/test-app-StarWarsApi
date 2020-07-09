@@ -1,0 +1,18 @@
+.App {
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  color: white;
+}
+
+.films-filter {
+  border: gold 2px solid;
+  border-radius: 5px;
+  padding: 3px 5px;
+  width: 300px;
+  height: 30px;
+  margin: 100px auto 40px;
+  &:hover,&:focus,&:active {
+    border: orangered 2px solid;
+  }
+}

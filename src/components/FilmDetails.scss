@@ -1,0 +1,19 @@
+.film-details {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  top: 50px;
+  left: 30px;
+  right: 30px;
+  margin: 10px auto;
+  padding: 5px 10px;
+  width: 90%;
+  height: auto;
+  background-color: white;
+  border: 1px solid gold;
+  text-align: left;
+  color: black;
+  &:hover {
+    cursor: pointer;
+  }
+}
