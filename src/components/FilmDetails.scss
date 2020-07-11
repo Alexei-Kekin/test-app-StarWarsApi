@@ -13,6 +13,13 @@
   border: 1px solid gold;
   text-align: left;
   color: black;
+
+}
+
+.film-details__btn-close {
+  position: absolute;
+  top: 0;
+  right: 0;
   &:hover {
     cursor: pointer;
   }

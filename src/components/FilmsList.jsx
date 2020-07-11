@@ -14,9 +14,7 @@ export default function FilmsList({ data, onClick}) {
                 })
                     .map((film, id = film.episode_id) => {
                     return (
-                       <div
-                           key={id}
-                       >
+                       <div key={id} >
                            <li
                                className="films-list__element"
                                onClick={() => onClick(film)}
